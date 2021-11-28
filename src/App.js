@@ -20,7 +20,7 @@ class App extends React.Component {
   return (
     <div className="grid-container">
       <header>
-        <a href="/">Riverman</a>
+        <a href="/">Riverman Clothes</a>
       </header>
       <main>
       <div className="content">
