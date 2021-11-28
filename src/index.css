@@ -47,6 +47,7 @@ header{
   display: flex;
   align-items: center;
   padding: .5rem ;
+  font-size: x-large;
 }
 
 header a {
