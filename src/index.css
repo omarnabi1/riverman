@@ -69,10 +69,6 @@ footer{
 
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 .content{
   display: flex;
   flex-wrap: wrap;
@@ -102,6 +98,7 @@ footer{
   flex: 0 1 29rem;
   height: 47rem;
   padding: 1rem;
+  margin: 1rem;
 }
 
 .product{
@@ -134,19 +131,17 @@ footer{
 
 .button{
   padding: 1rem;
-  border: .1rem cadetblue;
+  border: .1rem rgb(252, 252, 252) solid;
   background-color: darkcyan;
   cursor: pointer;
 }
 
 .button:hover{
-  border: rgb(0, 255, 0);
+  border: rgb(255, 217, 0) solid;
 }
 
 .button.primary{
-  background-color: #f0c040;
-<<<<<<< HEAD
-}
-=======
+  background-color: darkcyan;
+  color: seashell;
+  font-weight: bolder;
  }
->>>>>>> main
