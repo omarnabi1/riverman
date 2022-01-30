@@ -1,0 +1,102 @@
+{
+    "products": [
+        {  "_id":"item1", 
+            "title": "Item 1",
+            "image": "/images/image1.jpg",
+            "description": "about item 1",
+            "price": 19,
+            "availableSizes":["S","XL"]
+        },
+
+
+        {
+        
+            "_id":"item2", 
+            "title": "Item 2",
+            "image": "/images/image2.jpg",
+            "description": "about item 2",
+            "price": 29,
+            "availableSizes":["S","L","XL"]
+        },
+
+        {
+
+            "_id":"item3", 
+            "title": "Item 3",
+            "image": "/images/image3.jpg",
+            "description": "about item 3",
+            "price": 49,
+            "availableSizes":["S"]
+
+        },
+
+        {
+
+            "_id":"item4", 
+            "title": "Item 4",
+            "image": "/images/image4.jpg",
+            "description": "about item 4",
+            "price": 39,
+            "availableSizes":["S","L","XL"]
+
+        },
+
+        {
+
+            "_id":"item5", 
+            "title": "Item 5",
+            "image": "/images/image5.jpg",
+            "description": "about item 5",
+            "price": 9,
+            "availableSizes":["S","L","M","XL"]
+
+        },
+
+        {
+            "_id":"item6", 
+            "title": "Item 6",
+            "image": "/images/image6.jpg",
+            "description": "about item 6",
+            "price": 99,
+            "availableSizes":["S","M","XL"]
+        },
+
+        {
+            "_id":"item7", 
+            "title": "Item 7",
+            "image": "/images/image7.jpg",
+            "description": "about item 7",
+            "price": 79,
+            "availableSizes":["L","XL"]
+        },
+
+        {
+            "_id":"item8", 
+            "title": "Item 8",
+            "image": "/images/image8.jpg",
+            "description": "about item 8",
+            "price": 289,
+            "availableSizes":["S","L","XL"]
+        },
+
+        {
+            "_id":"item9", 
+            "title": "Item 9",
+            "image": "/images/image9.jpg",
+            "description": "about item 9",
+            "price": 299,
+            "availableSizes":["XS","S","M","L","XL"]
+        },
+
+        {
+            "_id":"item10", 
+            "title": "Item 10",
+            "image": "/images/image10.jpg",
+            "description": "about item 10",
+            "price": 109,
+            "availableSizes":["S","L","XL"]
+        } 
+
+        
+    ]
+}
