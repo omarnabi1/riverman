@@ -12,18 +12,27 @@ class App extends React.Component {
     super();
     this.state = {
       products: data.products,
-      cartItems: [],
+      cartItems: localStorage.getItem("cartItems")
+      ? JSON.parse(localStorage.getItem("cartItems"))
+      : [],
       size: "",
       sort: "",
     };
   }
+
+createOrder = (order) =>{
+  alert("Please Save Your Order " + order.name);
+}
 
  removeFromCart = (product) => {
   const cartItems = this.state.cartItems.slice();
   this.setState({
     cartItems: cartItems.filter((x) => x._id !== product._id),
   });
-  
+  localStorage.setItem(
+    "cartItems", 
+  JSON.stringify(cartItems.filter((x) => x._id !== product._id))
+  );
  };
 addToCart = (product) => {
   const cartItems= this.state.cartItems.slice();
@@ -39,6 +48,7 @@ addToCart = (product) => {
     cartItems.push({...product, count: 1 });
   }
   this.setState({ cartItems });
+  localStorage.setItem("cartItems", JSON.stringify(cartItems));
 };
 sortProducts = (event) => {
   const sort = event.target.value;
@@ -82,7 +92,7 @@ filterProducts = (event) => {
 
       <div className="grid-container">
         <header>
-          <a href="/">rvrman</a>
+          <a href="/">Riverman</a>
         </header>
         <main>
           <div className="content">
@@ -102,6 +112,7 @@ filterProducts = (event) => {
               <Cart 
                 cartItems={this.state.cartItems}
                 removeFromCart={this.removeFromCart}
+                createOrder={this.createOrder}
               /> 
             </div>
           </div>
