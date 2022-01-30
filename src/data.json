@@ -48,7 +48,7 @@
             "image": "/images/image5.jpg",
             "description": "about item 5",
             "price": 9,
-            "availableSizes":["S","L","XL"]
+            "availableSizes":["S","L","M","XL"]
 
         },
 
@@ -58,7 +58,7 @@
             "image": "/images/image6.jpg",
             "description": "about item 6",
             "price": 99,
-            "availableSizes":["S","L","XL"]
+            "availableSizes":["S","M","XL"]
         },
 
         {
